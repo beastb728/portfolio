@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ishaan Singh — AI &amp; Software Engineering</title>
+    <meta name="description" content="Ishaan Singh, a third-year B.Tech CSE student at LNMIIT Jaipur working on AI, LLM agents, multi-agent systems and backend engineering. Seeking SDE / ML internships for Summer 2027." />
+    <meta name="theme-color" content="#04050b" />
+    <!-- link previews (LinkedIn, WhatsApp, Slack, X). These need the full address of the live site. -->
+    <link rel="canonical" href="https://beastb.vercel.app/" />
+    <meta property="og:url" content="https://beastb.vercel.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ishaan Singh — AI &amp; Software Engineering" />
+    <meta property="og:description" content="AI agents, multi-agent systems and backend engineering. B.Tech CSE at LNMIIT Jaipur, seeking SDE / ML internships for Summer 2027." />
+    <meta property="og:image" content="https://beastb.vercel.app/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@300;400;600&family=Geist:wght@400;500&family=Geist+Mono:wght@400;500&display=swap"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+    <script>
+      // play the TV power-on intro once per visit (skipped for reduced motion)
+      try {
+        if (!matchMedia('(prefers-reduced-motion: reduce)').matches && !sessionStorage.getItem('tv-on'))
+          document.documentElement.classList.add('intro');
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div class="poweron" aria-hidden="true"><div class="poweron__beam"></div></div>
+    <div class="cursor" aria-hidden="true"><i class="cursor__cross"></i><span class="cursor__label"></span></div>
+
+    <header class="nav">
+      <a href="#top" class="nav__logo" data-scramble aria-label="Ishaan Singh, back to top">IS<span class="lime">.</span></a>
+
+      <nav class="pills" aria-label="Main">
+        <a href="#work" class="pill" data-section="work" data-scramble>Work</a>
+        <a href="#about" class="pill" data-section="about" data-scramble>About</a>
+        <a href="#journey" class="pill" data-section="journey" data-scramble>Journey</a>
+        <a href="#notes" class="pill" data-section="notes" data-scramble>Notes</a>
+        <a href="#contact" class="pill" data-section="contact" data-scramble>Contact</a>
+      </nav>
+
+      <div class="nav__meta mono">
+        <span class="status"><i class="status__dot"></i> Seeking SDE / ML internships · Summer 2027</span>
+        <span class="clock" data-tz="Asia/Kolkata" aria-label="Local time">--:--</span>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- HERO -->
+      <section class="hero" data-section-id="top">
+        <canvas class="hero__canvas" aria-hidden="true"></canvas>
+
+        <div class="hud mono" aria-hidden="true">
+          <i class="hud__corner hud__corner--tl"></i><i class="hud__corner hud__corner--tr"></i>
+          <i class="hud__corner hud__corner--bl"></i><i class="hud__corner hud__corner--br"></i>
+          <span class="hud__tl"><b class="js-fps">60</b> fps</span>
+          <span class="hud__tr"><i class="rec"></i> REC</span>
+          <span class="hud__bl">[ <span class="js-date">--/--/--</span> ]</span>
+          <span class="hud__br">[ <span class="js-timecode">00:00:00</span> ]</span>
+        </div>
+
+        <div class="hero__inner">
+          <p class="hero__intro reveal-load" style="--d: 0">
+            I build AI-powered systems, from LLM agents to multi-agent experiments, and I care about
+            <em>why</em> they work, not just that they do.
+          </p>
+
+          <div class="hero__bottom">
+            <p class="hero__eyebrow mono reveal-load" style="--d: 1">Portfolio — Delhi, India</p>
+            <h1 class="hero__name" aria-label="Ishaan Singh">
+              <span class="line"><span style="--d: 2">Ishaan</span></span>
+              <span class="line"><span style="--d: 3">Singh<i class="lime">.</i></span></span>
+            </h1>
+            <div class="hero__meta">
+              <p class="hero__role reveal-load" style="--d: 4">AI / ML &amp; software engineer</p>
+              <p class="mono reveal-load" style="--d: 5">B.Tech CSE — LNMIIT Jaipur<br />Class of 2028</p>
+              <p class="mono hero__seeking reveal-load" style="--d: 6"><i class="status__dot"></i> Seeking SDE / ML internships<br />Summer 2027</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MARQUEE -->
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <span>Large language models</span><i>✦</i><span>AI agents</span><i>✦</i><span>Multi-agent systems</span><i>✦</i><span>Emergent communication</span><i>✦</i><span>Backend engineering</span><i>✦</i><span>Data structures &amp; algorithms</span><i>✦</i><span>Applied research</span><i>✦</i>
+          <span>Large language models</span><i>✦</i><span>AI agents</span><i>✦</i><span>Multi-agent systems</span><i>✦</i><span>Emergent communication</span><i>✦</i><span>Backend engineering</span><i>✦</i><span>Data structures &amp; algorithms</span><i>✦</i><span>Applied research</span><i>✦</i>
+        </div>
+      </div>
+
+      <!-- WORK: CRT TV carousel -->
+      <section class="cases" id="work">
+        <div class="hud mono" aria-hidden="true">
+          <i class="hud__corner hud__corner--tl"></i><i class="hud__corner hud__corner--tr"></i>
+          <i class="hud__corner hud__corner--bl"></i><i class="hud__corner hud__corner--br"></i>
+          <span class="hud__tl">CH <b class="js-channel">01</b></span>
+          <span class="hud__bl">[ <span class="js-year">2026</span> ]</span>
+          <span class="hud__br">[ <span class="js-counter">01 / 04</span> ]</span>
+        </div>
+
+        <button class="sound mono" type="button" aria-pressed="false" data-cursor="Sound">
+          <i class="sound__bars" aria-hidden="true"><b></b><b></b><b></b></i> Sound <span class="sound__state">off</span>
+        </button>
+
+        <header class="cases__head">
+          <p class="mono label" data-reveal>(01) Selected work</p>
+          <h2 class="cases__heading" data-reveal>Selected work</h2>
+        </header>
+
+        <div class="stage" data-reveal>
+          <button class="btn-ghost stage__prev" type="button" aria-label="Previous project" data-scramble data-cursor="Prev">Previous</button>
+
+          <div class="tv" data-cursor="Play">
+            <div class="tv__body">
+              <div class="tv__screen">
+                <canvas class="tv__canvas" role="img" aria-label="Project preview"></canvas>
+                <div class="tv__glass"></div>
+              </div>
+              <div class="tv__panel mono">
+                <span class="tv__brand">cobalt·9</span>
+                <span class="tv__hint">0–5 tune · E email · R résumé</span>
+                <span class="tv__controls"><i class="tv__led"></i><i class="tv__knob"></i><i class="tv__knob"></i></span>
+              </div>
+            </div>
+            <div class="tv__shadow"></div>
+          </div>
+
+          <button class="btn-ghost stage__next" type="button" aria-label="Next project" data-scramble data-cursor="Next">Next</button>
+        </div>
+
+        <div class="cases__meta" aria-live="polite">
+          <p class="cases__tags mono js-tags">[ Android ] [ Go ] [ Real-time ]</p>
+          <h3 class="cases__title js-title">FogLink</h3>
+          <p class="cases__desc js-desc"></p>
+          <a class="btn-explore js-explore" href="https://github.com/beastb728/FogLink" target="_blank" rel="noopener" data-cursor="GitHub">
+            <span class="btn-explore__label" data-scramble>Explore</span><span class="btn-explore__arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <!--
+          EDIT: your projects. One <li> each.
+            data-tags   comma separated
+            data-video  optional muted clip that plays on the TV (4:3 mp4); data-image is its still frame
+            data-screen animated canvas screen from src/screens.js (e.g. "bittorrent")
+            data-image  optional screenshot (put files in /public/work/, 4:3 looks best). Without it a placeholder screen is drawn.
+            data-desc   one line shown under the title
+            data-hue    colour of the placeholder screen (0–360)
+        -->
+        <ol class="cases__list">
+          <li data-tags="Android, Go, Real-time" data-year="2026" data-image="/work/foglink.jpg" data-video="/work/foglink.mp4"
+              data-desc="Turns the phones already in cars into a fog collision-warning network. When a vehicle brakes hard, drivers up to 2 km behind hear a spoken alert in about 300 ms.">
+            <a href="https://github.com/beastb728/FogLink">FogLink</a></li>
+          <li data-tags="AI agents, A2A / MCP, Hedera x402" data-year="2026" data-image="/work/ezpc.jpg" data-video="/work/ezpc.mp4"
+              data-desc="An AI agent that plans a gaming PC, haggles with shop agents and pays for its own data, but can only spend the allowance you approve. Team of four, ETHGlobal Mumbai.">
+            <a href="https://github.com/beastb728/EzPC">EzPC</a></li>
+          <li data-tags="Geospatial ML, XGBoost, Explainable AI" data-year="2026" data-image="/work/uhi.jpg"
+              data-desc="Explains why parts of Delhi run hotter, using Landsat 8 data, a physics-aware XGBoost model and SHAP, then simulates how much greening and cool roofs would help.">
+            <a href="https://github.com/beastb728/urban-heat-intelligence-platform">Urban Heat Intelligence</a></li>
+          <li data-tags="LLMs, React, Supabase" data-year="2026" data-image="/work/medsync.jpg"
+              data-desc="Takes a patient from first symptom to follow-up: AI triage, doctor matching, tele-consults with an AI scribe, and reports rewritten in plain language. Team of four.">
+            <a href="https://github.com/beastb728/medsync">MediSync</a></li>
+          <li data-tags="Python, Networking, Peer-to-peer" data-year="2026" data-screen="bittorrent"
+              data-desc="A BitTorrent client written from scratch in Python: bencode parsing, tracker peer discovery, the peer handshake, and pieces downloaded in 16 KB blocks and checked against their SHA-1 hashes.">
+            <a href="https://github.com/beastb728/bittorrent-from-scratch">BitTorrent from scratch</a></li>
+        </ol>
+      </section>
+
+      <!-- ABOUT: bento grid -->
+      <section class="section about" id="about">
+        <div class="section__head">
+          <p class="mono label" data-reveal>(02) About</p>
+          <h2 class="section__title" data-reveal>Who's behind <em>the screen</em></h2>
+        </div>
+
+        <div class="bento">
+          <article class="card card--lead" data-reveal>
+            <p class="mono label">Intro</p>
+            <p class="card__statement">I care about more than what a system does. I want to know <em>why</em> it works.</p>
+            <p class="card__text">
+              I'm a third-year Computer Science student at The LNM Institute of Information Technology, Jaipur,
+              working where artificial intelligence, software engineering and research-oriented development meet.
+            </p>
+          </article>
+
+          <article class="card card--now" data-reveal>
+            <p class="mono label"><i class="status__dot"></i> Currently</p>
+            <p class="card__big">Seeking SDE / ML internships</p>
+            <p class="card__text">Summer 2027 · 3rd year, B.Tech CSE</p>
+            <a class="btn-ghost card__cta" href="/resume.pdf" target="_blank" rel="noopener" data-scramble data-cursor="Résumé">Résumé ↗</a>
+          </article>
+
+          <article class="card card--place" data-reveal>
+            <p class="mono label">Based</p>
+            <p class="card__big">Delhi <span class="card__arrow">⇄</span> Jaipur</p>
+            <p class="card__text mono"><span class="js-local-time">--:--</span> IST</p>
+          </article>
+
+          <article class="card card--grad" data-reveal>
+            <p class="mono label">Graduating</p>
+            <p class="card__huge">2028</p>
+            <p class="card__text mono">LNMIIT Jaipur</p>
+          </article>
+
+          <article class="card card--focus" data-reveal>
+            <p class="mono label">Focus</p>
+            <ul class="chips">
+              <li>AI &amp; machine learning</li>
+              <li>LLMs &amp; AI agents</li>
+              <li>Multi-agent systems</li>
+              <li>Emergent communication</li>
+              <li>Backend &amp; systems</li>
+              <li>Data structures &amp; algorithms</li>
+              <li>Applied research</li>
+            </ul>
+          </article>
+
+          <article class="card card--how" data-reveal>
+            <p class="mono label">How I work</p>
+            <p class="card__text">
+              I like going past conventional app development to see how systems work inside: building AI-powered
+              applications, competing in hackathons, and experimenting with multi-agent intelligence. Every project
+              is a chance to learn, experiment and engineer.
+            </p>
+            <p class="card__pillars mono">Fundamentals <i>✦</i> Implementation <i>✦</i> Explaining why</p>
+          </article>
+
+          <!-- EDIT: toolkit. One row per group. -->
+          <article class="card card--toolkit" data-reveal>
+            <p class="mono label">Toolkit</p>
+            <dl class="toolkit">
+              <div><dt class="mono">Languages</dt><dd>Python, Java, C++, C, SQL, Go, Kotlin, JavaScript</dd></div>
+              <div><dt class="mono">AI / ML</dt><dd>PyTorch, TensorFlow, scikit-learn, XGBoost, SHAP, RAG, LLMs</dd></div>
+              <div><dt class="mono">Systems / Networking</dt><dd>TCP/IP, socket programming, peer-to-peer networking, distributed systems, protocol implementation</dd></div>
+              <div><dt class="mono">Tools</dt><dd>Git, GitHub, Linux, Docker, Vercel</dd></div>
+            </dl>
+          </article>
+
+          <!--
+            EDIT: competitive programming.
+              data-cf-handle   your Codeforces handle; the rating is fetched live
+              data-lc-solved   your LeetCode solved count (LeetCode has no public API, so this is typed in)
+            Also put the profile URLs in the two hrefs below and in the footer.
+          -->
+          <article class="card card--cp" data-reveal data-cf-handle="specialcoin" data-lc-solved="">
+            <p class="mono label">Competitive programming</p>
+            <div class="cp">
+              <a class="cp__row" href="https://codeforces.com/profile/specialcoin" target="_blank" rel="noopener">
+                <span class="mono">Codeforces</span><b class="js-cf-rating">—</b><small class="mono js-cf-rank">rating</small>
+              </a>
+              <!-- shown automatically once data-lc-solved above has a number; put the profile URL in href -->
+              <a class="cp__row cp__row--lc" href="#" target="_blank" rel="noopener">
+                <span class="mono">LeetCode</span><b class="js-lc-solved">—</b><small class="mono">solved</small>
+              </a>
+            </div>
+          </article>
+
+          <!-- EDIT: what you're reading or trying right now. Change it every few weeks.
+               Hidden for now: fill in the text and delete the word "hidden" to show it. -->
+          <article class="card card--currently" data-reveal hidden>
+            <p class="mono label">Currently</p>
+            <p class="card__text card__text--fg">TODO: a paper, book or experiment you're on right now, e.g. a paper on emergent communication between agents.</p>
+            <p class="card__text mono card__stamp">Updated Nov 2026</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- JOURNEY: scroll-drawn timeline -->
+      <section class="section journey" id="journey">
+        <div class="section__head">
+          <p class="mono label" data-reveal>(03) Journey</p>
+          <h2 class="section__title" data-reveal>The path <em>so far</em></h2>
+        </div>
+
+        <!-- EDIT: milestones. Add class "is-future" to ones that haven't happened yet. -->
+        <ol class="timeline">
+          <li class="milestone">
+            <span class="milestone__year">2024</span>
+            <i class="milestone__node"></i>
+            <div class="milestone__body">
+              <h3>Started B.Tech CSE</h3>
+              <p>Joined The LNM Institute of Information Technology, Jaipur.</p>
+            </div>
+          </li>
+          <li class="milestone">
+            <span class="milestone__year">2025</span>
+            <i class="milestone__node"></i>
+            <div class="milestone__body">
+              <h3>Building with AI</h3>
+              <p>AI-powered applications and hackathons. Turning ideas into working systems.</p>
+            </div>
+          </li>
+          <li class="milestone">
+            <span class="milestone__year">Now</span>
+            <i class="milestone__node"></i>
+            <div class="milestone__body">
+              <h3>Multi-agent research</h3>
+              <p>Exploring multi-agent intelligence and emergent communication between agents.</p>
+            </div>
+          </li>
+          <li class="milestone is-future">
+            <span class="milestone__year">2027</span>
+            <i class="milestone__node"></i>
+            <div class="milestone__body">
+              <h3>SDE / ML internship</h3>
+              <p>Looking for a summer 2027 role. <a href="#contact">Let's talk →</a></p>
+            </div>
+          </li>
+          <li class="milestone is-future">
+            <span class="milestone__year">2028</span>
+            <i class="milestone__node"></i>
+            <div class="milestone__body">
+              <h3>Graduating</h3>
+              <p>B.Tech in Computer Science, LNMIIT.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <!-- NOTES: short write-ups. Drafted from your project READMEs, edit freely. -->
+      <section class="section notes" id="notes">
+        <div class="section__head">
+          <p class="mono label" data-reveal>(04) Notes</p>
+          <h2 class="section__title" data-reveal>How it <em>works</em></h2>
+        </div>
+
+        <div class="notes__list">
+          <details class="note" data-reveal>
+            <summary>
+              <span class="note__n mono">01</span>
+              <span class="note__title">Getting a warning back through the fog in 300 ms</span>
+              <span class="note__meta mono">FogLink · 2 min</span>
+              <i class="note__icon" aria-hidden="true"></i>
+            </summary>
+            <div class="note__body">
+              <p>
+                A fog pileup starts with information that already exists: the first driver has stopped. The hard part is
+                getting "something stopped 600 m ahead of you" to the right phones before the traffic behind arrives.
+              </p>
+              <p>
+                FogLink treats each carriageway as a line. A phone map-matches itself to "metres along NH-48, southbound", so
+                "behind me" is just a smaller number on the same line. The Go relay never sees GPS. It keeps one latest
+                position per anonymous ID for five seconds and forwards a stop event to every phone up to 2 km behind it.
+              </p>
+              <p>
+                Each phone then decides on its own whether to speak, from the deceleration its driver would need to stop
+                in time. Through the live relay, event to spoken alert is 323 ms median. In simulation with every vehicle
+                running it, 91% fewer vehicles are involved at 50 m visibility. At 10% adoption it barely helps, which is
+                worth saying out loud.
+              </p>
+              <a class="note__link mono" href="https://github.com/beastb728/FogLink" target="_blank" rel="noopener" data-scramble>Read the repo ↗</a>
+            </div>
+          </details>
+
+          <details class="note" data-reveal>
+            <summary>
+              <span class="note__n mono">02</span>
+              <span class="note__title">Why I made a heat model obey physics</span>
+              <span class="note__meta mono">Urban heat · 2 min</span>
+              <i class="note__icon" aria-hidden="true"></i>
+            </summary>
+            <div class="note__body">
+              <p>
+                The goal wasn't just predicting land surface temperature across Delhi. It was answering "what happens if
+                we plant more trees here?" A model that's accurate but learns nonsense, like more vegetation making
+                a cell hotter, gives wrong answers to exactly that question.
+              </p>
+              <p>
+                So the XGBoost model has monotonic constraints: temperature can only fall as vegetation (NDVI) or moisture
+                (NDWI) rises, and only rise with built-up area (NDBI). Constraining it this way also made it better, not
+                worse. R² went from 0.61 with a random forest baseline to 0.71, with RMSE down from 3.1 °C to 2.6 °C.
+              </p>
+              <p>
+                SHAP then shows why each prediction came out the way it did. Built-up density is the biggest driver, and
+                the cooling from vegetation flattens out above an NDVI of about 0.4.
+              </p>
+              <a class="note__link mono" href="https://github.com/beastb728/urban-heat-intelligence-platform" target="_blank" rel="noopener" data-scramble>Read the repo ↗</a>
+            </div>
+          </details>
+
+          <details class="note" data-reveal>
+            <summary>
+              <span class="note__n mono">03</span>
+              <span class="note__title">Giving an AI agent a budget, but not the keys</span>
+              <span class="note__meta mono">EzPC · 2 min</span>
+              <i class="note__icon" aria-hidden="true"></i>
+            </summary>
+            <div class="note__body">
+              <p>
+                At ETHGlobal Mumbai our team built an agent that shops for a gaming PC on its own. It negotiates with other
+                AI agents and pays for data with USDC. Letting an LLM spend money raises an obvious question: what stops
+                it from spending too much?
+              </p>
+              <p>
+                Our answer was to never give it a wallet. The agent can only ask a separate Guard service to pay, and the
+                Guard can only spend from an allowance the user approves once in their own wallet, enforced by Hedera
+                itself. Its checks fail closed, every decision is written to a public audit log, and larger payments wait
+                for a World ID check and a signature from the user.
+              </p>
+              <p>
+                The agent is free to be clever about prices, because it is never trusted with the money.
+              </p>
+              <a class="note__link mono" href="https://github.com/beastb728/EzPC" target="_blank" rel="noopener" data-scramble>Read the repo ↗</a>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section contact" id="contact">
+        <p class="mono label" data-reveal>(05) Contact</p>
+        <h2 class="contact__title" data-reveal>Building something?<br /><em>Let's talk.</em></h2>
+        <div class="contact__actions" data-reveal>
+          <a class="btn-explore btn-explore--big" href="mailto:515.ishaansingh@gmail.com">
+            <span class="btn-explore__label" data-scramble>515.ishaansingh@gmail.com</span><span class="btn-explore__arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="btn-ghost btn-ghost--big" href="/resume.pdf" target="_blank" rel="noopener" data-scramble data-cursor="Résumé">Résumé ↗</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer mono">
+      <span>© 2026 Ishaan Singh <span class="footer__stats">· Updated <span class="js-updated">--</span> · <span class="js-weight">--</span> KB, no framework</span></span>
+      <nav class="footer__links" aria-label="Social">
+        <a href="https://github.com/beastb728" target="_blank" rel="noopener" data-scramble>GitHub</a>
+        <a href="https://www.linkedin.com/in/ishaansingh728/" target="_blank" rel="noopener" data-scramble>LinkedIn</a>
+        <!-- TODO: LeetCode, add back when you have the profile URL:
+        <a href="https://leetcode.com/u/YOUR-HANDLE/" target="_blank" rel="noopener" data-scramble>LeetCode</a> -->
+        <a href="https://codeforces.com/profile/specialcoin" target="_blank" rel="noopener" data-scramble>Codeforces</a>
+        <a href="/resume.pdf" target="_blank" rel="noopener" data-scramble>Résumé</a>
+      </nav>
+      <a href="#top" data-scramble>Back to top ↑</a>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
